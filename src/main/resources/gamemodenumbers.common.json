@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "tschipp.gamemodenumbers.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "GamemodeCommandMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

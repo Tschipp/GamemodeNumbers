@@ -1,0 +1,12 @@
+{
+  "id": "gamemodenumbers",
+  "name": "Gamemode Numbers",
+  "version": "1.0.0",
+  "side": "universal",
+  "initializer": "tschipp.gamemodenumbers.GamemodeNumbers",
+  "description": "Lets the /gamemode command be used with numbers again",
+  "mixins": {
+    "client": "gamemodenumbers.client.json",
+    "common": "gamemodenumbers.common.json"
+  }
+}
